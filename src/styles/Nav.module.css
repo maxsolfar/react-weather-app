@@ -1,0 +1,96 @@
+.Navbar {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 55px;
+    
+    border-bottom: 1px solid rgba(237,230,203,0.2);
+    box-shadow: 1px 12px 6px -7px rgba(21,21,21,0.5);
+
+}
+
+.Navbar a{
+    text-decoration: none;
+}
+
+
+.Navbar nav {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap:10px;
+    
+}
+
+
+.Navbar h2 {
+    color: var(--white-font-color);
+    margin: 0;
+    font-weight: 700;
+}
+
+
+.rightMenu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.rightMenu h3 {
+    color: var(--white-font-color);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+
+.inputButton {
+    
+    transition: all .5s ease-in;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid var(--white-font-color);
+    background: transparent;
+    border-radius: 10px;
+}
+
+
+.inputButton:hover {
+    transition: all .5s ease-in;
+    color: var(--white-font-color);
+    border: 1px solid var(--white-font-color);
+    background-color: rgba(21,21,21,.7);
+
+    cursor: pointer;
+}
+
+
+
+
+.aboutImg{
+    transition: all .5s ease-in;
+    width: 28px;
+    fill: var(--white-font-color);
+
+}
+
+.aboutImg:hover{
+    transition: all .5s ease-in;
+
+}
+
+
+@media screen and (max-width:750px) {
+    .Navbar{
+        padding: 10px 0px;
+        justify-content: center;
+    }
+    .rightMenu{
+        display: none;
+    }
+    
+}

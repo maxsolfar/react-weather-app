@@ -1,0 +1,8 @@
+.Title{
+    color: var(--white-font-color);
+    margin: 20px 0 20px 0;
+    font-size: 24px;
+}
+.Text{
+    color: var(--white-font-color);
+}

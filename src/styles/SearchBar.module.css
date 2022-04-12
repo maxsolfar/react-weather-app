@@ -1,0 +1,103 @@
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: var(--main-bg-color);
+    padding: 15px;
+
+    flex-basis: 25%;
+}
+
+@media screen and (max-width:600px) {
+    .inputContainer{
+        margin-top: 10px;
+        flex-basis: 100%;
+    }
+    
+}
+
+.input {
+    transition: all .9s ease-in;
+    padding: 15px 30px;
+    border-style: none;
+    background: rgba(255,255,255,.1);
+    border-bottom: 1px solid var(--white-font-color);
+    color: var(--white-font-color);
+    font-size: 1.1rem;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(21,21,21,.3);
+}   
+
+.inputContainer i{
+    font-size: 1.3rem;
+    color: var(--white-font-color);
+}
+
+
+.input:focus {
+    transition: all .9s ease-in;
+    border-style: none;
+    border-bottom: 1px solid rgba(21,21,21,.7);
+    outline: none;
+    background-color: rgba(21,21,21,.7);
+}
+
+.input::placeholder {
+    color: var(--white-font-color);
+    font-size: .9em;
+    font-weight: 700;
+
+}
+
+
+/*
+.input:focus + .inputButton {
+    transition: 1.2s ease 30ms;
+    margin-right: 0px;
+
+
+    margin-right: -190px;
+}
+*/
+
+
+.inputButton {
+    
+    transition: all .5s ease-in;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid var(--white-font-color);
+
+    color: var(--main-bg-color);
+    border-radius: 10px;
+    background-color: var(--white-font-color);
+}
+
+
+
+
+.inputButton:hover {
+    transition: all .5s ease-in;
+    color: var(--white-font-color);
+    border: 1px solid var(--white-font-color);
+    background-color: rgba(21,21,21,.7);
+
+    cursor: pointer;
+}
+
+
+.pin{
+    transition: all .5s ease-in;
+    width: 28px;
+    fill: var(--main-bg-color);
+
+}
+
+.pin:hover{
+    transition: all .5s ease-in;
+    fill: var(--white-font-color);
+
+}

@@ -1,0 +1,18 @@
+.container {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    user-select: none;
+
+    
+}
+
+
+.titleEmpty{
+    color: var(--white-font-color);
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+}

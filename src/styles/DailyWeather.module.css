@@ -1,0 +1,106 @@
+.cardDrizzle,
+.cardClouds,
+.cardClear,
+.cardRain,
+.cardSnow,
+.cardSmoke {
+   
+    /*
+    * !display flex 
+    */
+    border: 1.2px solid rgba(237,230,203,0.3);
+    box-shadow: 4px 5px 4px 0px rgba(50, 54, 78, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--main-bg-color);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 10%;
+    gap: 15px;
+
+    background-color: rgba(50, 54, 78, 0.1);
+
+}
+
+@media screen and (max-width: 600px) {
+    .cardDrizzle,
+    .cardClouds,
+    .cardClear,
+    .cardRain,
+    .cardSnow,
+    .cardSmoke{ 
+        flex-basis: 30%;
+    }
+}
+
+/*
+    ? Diseño de la cards
+*/
+
+.cardDrizzle {
+    background: #56CCF2;  /* fallback for old browsers */
+
+} 
+
+.cardClouds {
+    background:  #03a5c2;/* fallback for old browsers */
+
+
+}
+
+.cardRain {
+    background: #FF7143;  /* fallback for old browsers */
+
+}
+.cardClear{
+    background: #686BCC; /* fallback for old browsers */
+
+
+}
+
+.cardSnow{
+    background: #3b82f4;  /* fallback for old browsers */
+
+} 
+
+.cardSmoke{
+    background: #56CCF2;  /* fallback for old browsers */
+}
+
+
+
+
+
+
+
+
+.DayNumber{
+ 
+    color: var(--white-font-color);
+    font-weight: 700;
+
+}
+
+.ImgDay h5{
+    margin-bottom: -20px;
+}
+
+
+.Temperature{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: -30px;
+    
+}
+
+.Temperature p{
+    margin: 0;
+    font-weight: 700;
+}
+
+.Temperature b{
+    color: var(--white-font-color);
+}
