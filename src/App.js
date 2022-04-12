@@ -156,15 +156,15 @@ export default function App() {
       <Nav onSearch={onSearch} />
       <Routes>
         <Route
-          path="/"
+          path="/react-weather-app/"
           element={
               <Cards cities={cities} onSortEnd={onSortEnd} onClose={onClose} />
           }
         />
 
-        <Route path="/city/:cityId" element={<City apiKey={apiKey} />} />
+        <Route path="/react-weather-app/city/:cityId" element={<City apiKey={apiKey} />} />
 
-        <Route path="/about" element={<About />} />
+        <Route path="/react-weather-app/about" element={<About />} />
 
         {/* Error 404*/}
         <Route path="*" element={<NotFound />} />

@@ -30,7 +30,7 @@ export default function Card(props) {
         }
       >
         <div className={style.buttonContainer}>
-          <Link to={`/city/${props.id}`}>
+          <Link to={`/react-weather-app/city/${props.id}`}>
     
             <button className={style.info}>See Details</button>
           </Link>
